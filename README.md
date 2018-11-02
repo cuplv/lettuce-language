@@ -60,3 +60,16 @@ To exit the console type
 ~~~
 > exit;;
 ~~~
+
+## Test Cases
+
+To run tests type
+
+$sbt test
+
+Test cases can be examined in the files in the directory
+
+~~~
+src/test/scala/edu/colorado/csci3155/LettuceAST/
+~~~
+
