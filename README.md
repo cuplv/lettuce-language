@@ -81,3 +81,43 @@ Test cases can be examined in the files in the directory
 src/test/scala/edu/colorado/csci3155/LettuceAST/
 ~~~
 
+### Exploring the Source Code
+
+Go to the directory
+
+~~~
+src/main/scala/edu/colorado/csci3155/LettuceAST
+~~~
+
+#### LettuceConsole
+
+The main function is defined in the file `LettuceConsole.scala`. It implements the prompting from user
+and parses/interprets the user inputs.
+
+TODO: add line number support in error messages from parser.
+
+#### LettuceParser
+
+The recursive descent parser using scala combinator parsing library.
+
+#### LettuceAST.scala
+
+The abstract syntax tree
+
+#### Interpreter
+
+`LettuceInterpreter.scala` has the main interpreter code.
+
+`LettuceValue.scala` implements the values used in the interpreter.
+
+`LettuceEnvironment.scala` implements the environment form identifiers to values.
+
+`LettuceStore.scala` uses the store for mutable references.
+
+`ErrorHandling.scala` has the exceptions thrown.
+
+TODO: Missing types/type inference in Lettuce.
+
+TODO: Objects need to be added.
+
+
