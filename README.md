@@ -3,14 +3,22 @@ https://www.scala-sbt.org/1.0/docs/Installing-sbt-on-Linux.html
 
 To compile simply type
 
-$ sbt compile
+`sbt compile`
+
+on the command line prompt.
 
 
 To run simply type
 
-$ sbt run
+`sbt run`
+
+on command line prompt.
+
+This will run the "console" application for Lettuce.
+
 
 You will see the prompt ">" to type your program on the console.
+
 Type a program like so
 
 
@@ -65,7 +73,7 @@ To exit the console type
 
 To run tests type
 
-$sbt test
+`sbt test`
 
 Test cases can be examined in the files in the directory
 
